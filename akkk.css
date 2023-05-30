@@ -1,0 +1,40 @@
+body {
+    background-color: #f4acb7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcad4;
+    margin: 0 50px;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 350px;
+    padding: 20px;
+    background-color: #ffe5d9;
+    margin: 10px;
+    text-align: center;
+}
