@@ -1,0 +1,31 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+}
+#pr {
+    list-style: none;
+}
+#pr li {
+    display: inline;
+    margin: 1em;
+}
+#divheader {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hlink {
+    text-decoration: none;
+    margin: 1em;
+    color: aliceblue;
+}
+.mainc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
