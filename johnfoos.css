@@ -3,29 +3,97 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: black;
 }
+
 #pr {
     list-style: none;
 }
+
 #pr li {
     display: inline;
     margin: 1em;
 }
+
 #divheader {
     display: flex;
     justify-content: space-evenly;
 }
+
 .hlink {
     text-decoration: none;
     margin: 1em;
     color: aliceblue;
 }
-.mainc {
+
+main {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 55px;;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    background-color:  black;
+    padding: 10px;
+    margin: 40px;
+    border-color: aliceblue;
+    border-style: double;
+}
+
+.img-container {
+    position: relative;
+}
+
+.producto .img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.producto:hover .img-hover {
+    opacity: 1;
+}
+
+.producto .precio {
+    position: relative;
+    bottom: 30px;
+    background-color: white;
+    left: 0;
+    transition: all 0.4s ease;
+}
+
+.producto:hover .precio {
+    background-color: black;
+    color: white;
+    bottom: 210px;
     
+}
+
+.producto .precio {
+    margin: 0;
+}
+img {
+    width: 200px;
+}
+
+p {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+h3 {
+    margin: 0;
+    color: aliceblue;
 }
