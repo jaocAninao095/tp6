@@ -34,13 +34,14 @@ main {
     flex-wrap: wrap;
     max-width: 1600px;
     margin: 0 auto;
-    margin-top: 55px;;
+    margin-top: 55px;
+    margin-bottom: 5em;
 }
 
 .producto {
     display: flex;
     flex-direction: column;
-    background-color:  black;
+    background-color: black;
     padding: 10px;
     margin: 40px;
     border-color: aliceblue;
@@ -74,12 +75,13 @@ main {
     background-color: black;
     color: white;
     bottom: 210px;
-    
+
 }
 
 .producto .precio {
     margin: 0;
 }
+
 img {
     width: 200px;
 }
@@ -87,13 +89,25 @@ img {
 p {
     margin: 0;
 }
+
 h2 {
     margin: 0;
     color: aliceblue;
     text-decoration: underline;
     font-size: 20px;
 }
+
 h3 {
     margin: 0;
     color: aliceblue;
+}
+footer {
+    display: inline;
+}
+h4 {
+    margin-bottom: 0;
+}
+.socimg {
+    width: 40px;
+    height: 40px;
 }
